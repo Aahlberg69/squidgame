@@ -161,4 +161,5 @@ background-color: teal;
 /*för att ta sig till toppen i album*/
 #totop {
    margin-left:  50%;
+   color: black;
 }
