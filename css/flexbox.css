@@ -1,3 +1,9 @@
+#kropp {
+  background-image: url("homepageimg.jpeg");
+  font-family: 'Jura', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  background-size: cover;
+}
 /*för att göra sidan kompatibel med olika enheter som ex telefonen.*/
 @media (max-width: 620px) {
     nav div h2{
