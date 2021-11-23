@@ -5,7 +5,7 @@
 .albumbox {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-grid-gap: 8px;
+grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
 grid-auto-flow: dense;
 grid-auto-rows: 150px;
 }
@@ -17,6 +17,7 @@ grid-row: span 2;
 
 .wide {
 grid-column: span 2;
+grid-row: span 1;
 }
 
 .tall {
